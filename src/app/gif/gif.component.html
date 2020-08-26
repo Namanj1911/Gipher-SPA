@@ -1,0 +1,5 @@
+<mat-card class="gifCard">
+    <mat-card-title class="title">{{giphy.title}}</mat-card-title>
+    <img mat-card-image [src]="giphy.images.original.url" alt="Gif">
+    <button type="submit" (click)=addToFav(giphy)>Add Gif to favorites</button>
+</mat-card>

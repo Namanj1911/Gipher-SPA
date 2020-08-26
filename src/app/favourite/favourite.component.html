@@ -1,0 +1,8 @@
+<h2>Your favourite gifs are..</h2>
+<div class="gifArea">
+    <mat-card class="gifCard" *ngFor='let g of favGifs'>
+        <mat-card-title class="title">{{g.title}}</mat-card-title>
+        <img mat-card-image [src]="g.images.original.url" alt="Gif">
+        <button type="submit" (click)=delete(g)>Delete from favorites</button>
+    </mat-card>
+</div>

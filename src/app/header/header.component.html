@@ -1,0 +1,11 @@
+<mat-toolbar color="primary" class="header">Gif-Lib
+    <a routerLink='favourites'>Your Favourites</a>
+    <a routerLink='dashboard'>Home Page</a>
+    <div>
+        <input #name type="text" placeholder="Search gif-lib" class="searchInput">
+        <input class='button' type="submit" (click)=searchGif(name.value)>
+        <!-- <button (click)='show(name.value)'>Search</button> -->
+    </div>
+</mat-toolbar>
+
+<!-- <router-outlet></router-outlet> -->

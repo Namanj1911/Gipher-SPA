@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+ body {
+   margin: 0;
+ }
+
+ .footer-section-container{
+  background-color: #31404A;
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.social-media-links{
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.links{
+  display: inline-block;
+}
+
+.links i{
+  padding: 1em;
+  padding-top: 0;
+  padding-bottom: 0;
+}

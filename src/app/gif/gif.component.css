@@ -1,0 +1,17 @@
+.gifCard{
+    width: 200px;
+    height: 250px;
+    margin: 1em;
+    border: 1px solid black;
+    box-shadow: 5px 5px black;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: medium;
+    text-align: center;
+    height: 70px;
+}
+img{
+    height: 160px;
+}

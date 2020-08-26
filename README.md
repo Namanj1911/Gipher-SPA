@@ -1,3 +1,25 @@
+# Users
+
+This project has 2 users, their credentials are as follows:
+user1: {username: `Naman`, password: `Password1` }
+user2: {username: `Jain`, password: `Password2` }
+username and passwords are case sensitive.
+
+# ServerCommands
+
+To deploy json server use: `json-server --watch server/giphy.json`
+For running the app use: `npm run start`
+
+# Some Extra Info
+
+You will have to manually delete the token stored in localStorage by going in console every time
+you want to change the user or upon refreshing the app.
+The favourites of both the users are empty initially.
+
+
+
+
+
 # SpaDevelopment
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.

@@ -1,0 +1,20 @@
+.login-area{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding-left: 35vw;
+    padding-top: 10vh;
+    height: 70vh;
+}
+.error-border{
+    border-color: brown;
+}
+
+.error-hide{
+    display: none;
+}
+
+.error-message{
+    color: red;
+    font-style: italic;
+}
